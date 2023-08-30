@@ -1,4 +1,6 @@
 High Level Design:
+
+
   User Authentication and Management:
     JWT will be used for user authentication and authorization
   
@@ -12,10 +14,13 @@ High Level Design:
     HLS protocol will be used for streaming video  
 
 
-    ![Alt text](../../../Downloads/WhatsApp%20Image%202023-08-26%20at%208.58.48%20PM.jpeg)
+    ![WhatsApp Image 2023-08-26 at 8 58 48 PM](https://github.com/deveshm8/video-streaming/assets/60978696/e09afb78-f6a1-4b9e-b040-33c77ecba877)
+
 
 
 Low Level Design:
+
+
 // VideoStorage factory function
 const createVideoStorage = (storageBackend) => ({
     storeVideo: (video, transcodedFiles) => {
