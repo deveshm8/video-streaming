@@ -14,7 +14,7 @@ High Level Design:
     HLS protocol will be used for streaming video  
 
 
-    ![WhatsApp Image 2023-08-26 at 8 58 48 PM](https://github.com/deveshm8/video-streaming/assets/60978696/e09afb78-f6a1-4b9e-b040-33c77ecba877)
+    https://github.com/deveshm8/video-streaming/assets/60978696/e09afb78-f6a1-4b9e-b040-33c77ecba877
 
 
 
