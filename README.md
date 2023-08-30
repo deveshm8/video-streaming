@@ -14,7 +14,8 @@ High Level Design:
     HLS protocol will be used for streaming video  
 
 
-    https://github.com/deveshm8/video-streaming/assets/60978696/e09afb78-f6a1-4b9e-b040-33c77ecba877
+https://github.com/deveshm8/video-streaming/assets/60978696/0f38c7ff-1c26-4a8c-bd58-d0d7a5ec4b6z
+
 
 
 
