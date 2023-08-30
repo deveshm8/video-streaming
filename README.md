@@ -14,6 +14,7 @@ High Level Design:
     HLS protocol will be used for streaming video  
 
 
+Below there is link to HLD Diagram
 https://github.com/deveshm8/video-streaming/assets/60978696/46134591-80cc-47b5-a6e5-b048d1dd1ea1
 
 
@@ -21,6 +22,7 @@ Low Level Design:
 
 
 // VideoStorage factory function
+
 const createVideoStorage = (storageBackend) => ({
     storeVideo: (video, transcodedFiles) => {
         // Store video file and metadata
@@ -32,11 +34,13 @@ const createVideoStorage = (storageBackend) => ({
 });
 
 // VideoTranscoding function
+
 const transcodeFunction = (inputFilePath) => {
     // Convert video to multiple bitrate 
 };
 
 // EncryptionService factory function
+
 const createEncryption = (encryptionKeyManager) => ({
     encrypt: (inputData) => {
         // Encrypt data using symmetric encryption
@@ -47,6 +51,7 @@ const createEncryption = (encryptionKeyManager) => ({
 });
 
  // Video factory function
+ 
 const createVideo = (id, title, duration, filePath, transcodedFiles, encrypted) => ({
     id,
     title,
@@ -57,6 +62,7 @@ const createVideo = (id, title, duration, filePath, transcodedFiles, encrypted) 
 });
 
 // CDN factory function
+
 const createCDN = (cdnService) => ({
     uploadToCDN: (data, url) => {
         // Upload data to CDN and get CDN URL
@@ -64,6 +70,7 @@ const createCDN = (cdnService) => ({
 });
 
 // User create function
+
 const createUser = (id, username, roles) => ({
     id,
     username,
@@ -71,6 +78,7 @@ const createUser = (id, username, roles) => ({
 });
 
 // Authentication function (using jwt)
+
 const AuthenticationService = (authBackend) => ({
     authenticateUser: (credentials) => {
         // Authenticate user and return authentication token
